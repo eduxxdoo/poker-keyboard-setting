@@ -37,11 +37,14 @@ ikbc poker改键位分享 - 把poker方向键改到右边
 
 
 这位仁兄把他的键位改成了这样:
-图片: https://uploader.shimo.im/f/cOQHkoHXtiMAx1Ly.png
+
+https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/1.png
 
 
 键盘的原来布局是长这个样子的:
-图片: https://uploader.shimo.im/f/Lec0Qwd5LiwA9iuj.png
+
+https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/2.png
+
 
 看起来好像有那么点意思, 然后看了一下他的方法, 感觉可以操作, 那我就来试一波.
 
@@ -52,10 +55,7 @@ ikbc poker改键位分享 - 把poker方向键改到右边
 
 按照我的使用习惯,我准备把我的键位改成这样:
 
-图片: https://uploader.shimo.im/f/8wBClwJyMzEnNWkN.png
-
-
-我更改的键位布局
+https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/3.png
 
 
 - 原CapsLock 改为 组合键, 按住这个键位可以结合ijkl切换上下左右;
@@ -71,14 +71,18 @@ ikbc poker改键位分享 - 把poker方向键改到右边
 
 - 这个方案平常写代码写文字什么的还可以CapsLock+command+方向键实现类似Home和End的功能, 虽然麻烦了一点,但是习惯了之后很好用.
 
+
 这样操作基本不影响键盘自带的功能, 比如要用之前wasd作为方向键,也还是可以用啊,有时候想偷懒不想按组合键只想按方向键也可以啊, Fn+space之后wasd就变成方向键了,再按一次又变回去wasd,一点都不影响键盘原来的功能
+
 
 虽然我那个切换上下左右的组合键在左边, 但是比起之前要按住右边fn去操作方向键的方法来说我已经很少移动手了, 而且用wasd做方向键的时候我要调上下左右还得把手指移过去,多累. 把CapsLock键改成Fn的方法我在前面提到过, 也很不适应, 是我改键位的主要原因.
 
 --------------小剧场--------------
 
 什么,你问我大写锁定键呢?
+
 啊哈..那个我觉得大写锁定键好像没什么用,就不要了...那打英文的时候大写怎么办?
+
 我们还有shift啊
 
 --------------分割线--------------
@@ -91,22 +95,25 @@ ikbc poker改键位分享 - 把poker方向键改到右边
 
 
 首先根据那位仁兄的方法将Complex modifications那里的Rules添加了一个Change right_command +hjkl to arrow keys, 然后去到~/.config/karabiner/karabiner.json把里面的right_command改成left_control, 里面的hjkl的键按照功能分别替换为ijkl, 改完之后如图:
-图片: https://uploader.shimo.im/f/sjxcW55x5d0J4zcH.png
+
+https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/4.png
 
 
 json里面对应位置长这样的(防止流量爆炸提供一个示例, 反正道理都是一样的啦):
-图片: https://uploader.shimo.im/f/VPYaxyp0i4YFGJ20.png
+https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/5.png
+
 
 
 然后我要把CapsLock键变成组合键,所以就要把这个caps_lock和left_control键换一下(我试过直接把CapsLock换right_command但是不成功,不知道什么原因,所以还是用caps_lock换left_control比较保险),;
 再把command和opt键的位置设置一下,就完成啦. 设置如下:
-图片: https://uploader.shimo.im/f/Uut7ZEAxhb8EpzJV.png
+
+https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/6.png
 
 
 经过这些设置之后,我的键位终于更改成功,撒花~!!
 经过测试,完美使用, 而且一点不妨碍我切换输入法,并且组合键+h键居然是删除, 这下我连右上角的删除键也不用移动手去够了, 用习惯了甚至我的87键也可以这么改,和本来的键位也不冲突,这样就可以在换键盘的时候也能体会手不用移动的感觉,还不用担心切换键盘不适应啦~非常适合懒癌
 
+https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/7.png
 
-图片: https://uploader.shimo.im/f/XkQ18xRw27IAe1Wc.png
 
 东西是拿到了,那就要好好用啊,虽然一开始已经知道它的键位没有方向键等等等等了,但是它小啊,而且cherry茶轴手感我还蛮喜欢的,做工什么的也还可以,大键也不像别人说的那么肉,手感我是还蛮满意的, 就先用着吧
