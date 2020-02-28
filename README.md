@@ -40,12 +40,12 @@ ikbc poker改键位分享 - 把poker方向键改到右边
 
 这位仁兄把他的键位改成了这样:
 
-https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/1.png
+![Alt text](https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/1.png)
 
 
 键盘的原来布局是长这个样子的:
 
-https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/2.png
+![Alt text](https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/2.png)
 
 
 看起来好像有那么点意思, 然后看了一下他的方法, 感觉可以操作, 那我就来试一波.
@@ -57,7 +57,7 @@ https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/2.png
 
 按照我的使用习惯,我准备把我的键位改成这样:
 
-https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/3.png
+![Alt text](https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/3.png)
 
 
 - 原CapsLock 改为 组合键, 按住这个键位可以结合ijkl切换上下左右;
@@ -98,23 +98,23 @@ https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/3.png
 
 首先根据那位仁兄的方法将Complex modifications那里的Rules添加了一个Change right_command +hjkl to arrow keys, 然后去到~/.config/karabiner/karabiner.json把里面的right_command改成left_control, 里面的hjkl的键按照功能分别替换为ijkl, 改完之后如图:
 
-https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/4.png
+![Alt text](https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/4.png)
 
 
 json里面对应位置长这样的(防止流量爆炸提供一个示例, 反正道理都是一样的啦):
-https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/5.png
+![Alt text](https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/5.png)
 
 
 
 然后我要把CapsLock键变成组合键,所以就要把这个caps_lock和left_control键换一下(我试过直接把CapsLock换right_command但是不成功,不知道什么原因,所以还是用caps_lock换left_control比较保险),;
 再把command和opt键的位置设置一下,就完成啦. 设置如下:
 
-https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/6.png
+![Alt text](https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/6.png)
 
 
 经过这些设置之后,我的键位终于更改成功,撒花~!!
 经过测试,完美使用, 而且一点不妨碍我切换输入法,并且组合键+h键居然是删除, 这下我连右上角的删除键也不用移动手去够了, 用习惯了甚至我的87键也可以这么改,和本来的键位也不冲突,这样就可以在换键盘的时候也能体会手不用移动的感觉,还不用担心切换键盘不适应啦~非常适合懒癌
 
-https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/7.png
+![Alt text](https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/7.png)
 
 
