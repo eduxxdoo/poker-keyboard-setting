@@ -97,8 +97,10 @@ ikbc poker改键位分享 - 把poker方向键改到右边
 
 (看了官网才发现这个软件好像只支持mac....用windows的朋友散了散了吧)
 
+(另外这个方法还有一个缺点就是只能一直开着这个软件使用, 换了台电脑就不行了.....所以json文件和配置键位先备份好吧, 换了台电脑的话可以快速配置, win下就没办法了....)
 
-首先根据那位仁兄的方法将Complex modifications那里的Rules添加了一个Change right_command +hjkl to arrow keys, 然后去到~/.config/karabiner/karabiner.json把里面的right_command改成left_control, 里面的hjkl的键按照功能分别替换为ijkl, 改完之后如图:
+
+首先根据那位仁兄的方法, 将后面的dip全部关闭, 将Complex modifications那里的Rules添加了一个Change right_command +hjkl to arrow keys, 然后去到~/.config/karabiner/karabiner.json把里面的right_command改成left_control, 里面的hjkl的键按照功能分别替换为ijkl, 改完之后如图:
 
 ![Alt text](https://github.com/eduxxdoo/poker-keyboard-setting/blob/master/4.png)
 
